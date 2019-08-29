@@ -1,0 +1,19 @@
+{
+  "name": "typeorm-field-options-test",
+  "scripts": {
+    "test": "mocha --inspect=10001 -r ts-node/register tests/**/*.spec.ts --exit",
+    "typeorm": "ts-node node_modules/typeorm/cli"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "pg": "^7.12.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.3.0",
+    "typeorm": "^0.2.18",
+    "typescript": "3.5.3"
+  }
+}
